@@ -8,7 +8,10 @@
 
 
 *{
-    font-family: 'Open Sans', sans-serif;;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    
 }
 
 /* Container */
@@ -40,4 +43,8 @@
 
 .highlight {
     color: #0967d2;
+}
+
+.background {
+    font-size: 1rem;
 }
