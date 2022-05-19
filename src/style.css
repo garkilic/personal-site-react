@@ -1,0 +1,22 @@
+
+:root {
+
+    
+}
+
+
+/* Container */
+
+.container {
+    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Main Content */
+
+
+.main {
+    text-align: center;
+}
