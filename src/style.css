@@ -1,22 +1,43 @@
 
 :root {
 
+        --fs-large: 2rem;
+        --fs-medium: 1.25rem;
     
 }
 
 
-/* Container */
-
-.container {
-    width: 90%;
-    max-width: 100%;
-    margin: 0 auto;
+*{
+    font-family: 'Open Sans', sans-serif;;
 }
 
+/* Container */
 
-/* Main Content */
 
+.section-container {
+    max-width: 700px;
+    text-align: left;
+    padding: 3rem 4rem;
+}
 
-.main {
-    text-align: center;
+/* Body */
+
+.nav {
+    padding-bottom: 0;
+}
+
+.main{
+    margin-top: 0;
+}
+.main--message{
+    font-size: var(--fs-large);
+}
+
+.main--contact {
+    padding-top: 3rem;
+    font-size: var(--fs-medium);
+}
+
+.highlight {
+    color: #0967d2;
 }
