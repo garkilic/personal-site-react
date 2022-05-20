@@ -49,3 +49,9 @@
 .background {
     font-size: 1rem;
 }
+
+.background--resume {
+    text-decoration: none;
+    color: #0967d2;
+    font-weight: 500;
+}
