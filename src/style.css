@@ -69,3 +69,22 @@
 .icon:hover {
     color:#0967d2;
 }
+
+.footer{
+    display: flex;
+    text-align: center;
+    
+
+}
+
+.footer--links {
+    display: flex;
+    margin-left: 2em;
+    justify-content: center;
+}
+
+.footer--links li {
+    text-decoration: none;
+    list-style-type: none;
+}
+

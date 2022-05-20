@@ -4,6 +4,7 @@ import Main from './components/Main'
 import Background from './components/Background';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       title="test" 
       description="test test"/>
       {/* Figure out how to handle multiple properties next week */}
+      <Footer />
     </div>
   );
 }
