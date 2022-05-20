@@ -55,3 +55,17 @@
     color: #0967d2;
     font-weight: 500;
 }
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 3rem;
+}
+
+.icon {
+    margin: 1rem 0;
+}
+
+.icon:hover {
+    color:#0967d2;
+}
