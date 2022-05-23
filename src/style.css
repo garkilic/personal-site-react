@@ -23,6 +23,12 @@
     padding: 3rem 4rem;
 }
 
+@media(min-width: 675px) {
+    .section-container {
+        max-width: 1000px;
+    }
+}
+
 /* Body */
 
 .nav {
@@ -70,21 +76,28 @@
     color:#0967d2;
 }
 
-.footer{
+.footer {
+    max-width: 700px;
+    text-align: left;
+    padding: 3rem 4rem;
     display: flex;
-    text-align: center;
-    
+    margin: 0;
+    text-align: left;
 
 }
 
+
+
 .footer--links {
+    list-style-type: none;
     display: flex;
-    margin-left: 2em;
-    justify-content: center;
 }
 
 .footer--links li {
-    text-decoration: none;
-    list-style-type: none;
+    margin: 0.5em 0 0 2em;
 }
 
+.footer--links a {
+    color: #0967d2;
+    text-decoration: none;
+}

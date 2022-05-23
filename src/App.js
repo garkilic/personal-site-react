@@ -14,12 +14,8 @@ function App() {
       <Background />
       <Skills />
       <Projects 
-      title="test" 
-      description="test test"/>
-      <Projects 
-      title="test" 
-      description="test test"/>
-      {/* Figure out how to handle multiple properties next week */}
+      title="Lorem Ipsum" 
+      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lorem, lobortis id tortor id, euismod tristique sapien. Cras finibus pulvinar nunc nec dictum. Donec aliquet rhoncus nunc."/>
       <Footer />
     </div>
   );
