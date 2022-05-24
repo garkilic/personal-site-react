@@ -1,17 +1,23 @@
 
+/* General Styling */
+
 :root {
 
         --fs-large: 2rem;
         --fs-medium: 1.25rem;
-    
+
+        --clr-light: #0967d2;
 }
 
 
-*{
-    box-sizing: border-box;
+* {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
     
+}
+
+.highlight {
+    color: var(--clr-light);
 }
 
 /* Container */
@@ -29,38 +35,40 @@
     }
 }
 
-/* Body */
+/* Nav */
 
 .nav {
     padding-bottom: 0;
 }
 
-.main{
-    margin-top: 0;
-}
+/* Main */
+
 .main--message{
     font-size: var(--fs-large);
 }
 
 .main--contact {
-    padding-top: 3rem;
+    padding-top: 1rem;
     font-size: var(--fs-medium);
 }
 
+/* Background */
 
-.highlight {
-    color: #0967d2;
-}
 
 .background {
     font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 0;
 }
 
 .background--resume {
     text-decoration: none;
-    color: #0967d2;
+    color: var(--clr-light);
+    padding-top: 1rem;
     font-weight: 500;
 }
+
+/* Skills */
 
 .skills {
     display: grid;
@@ -73,19 +81,35 @@
 }
 
 .icon:hover {
-    color:#0967d2;
+    color: var(--clr-light);
 }
+
+/* Projects */
+
+.projects {
+    padding-top: 0;
+}
+
+.link--out {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Footer */
 
 .footer {
     max-width: 700px;
     text-align: left;
     padding: 3rem 4rem;
     display: flex;
-    margin: 0;
-    text-align: left;
+    padding-top: 0;
 
 }
 
+.footer h3{
+    margin-right: 20%;
+}
 
 
 .footer--links {
@@ -98,6 +122,25 @@
 }
 
 .footer--links a {
-    color: #0967d2;
+    color: var(--clr-light);
     text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 3rem;
+        
+    }
+
+    .footer h3 {
+        margin: 0;
+    }
+
+    .footer--links li {
+        margin: 0.5em 0 0 2.2em;
+    }
+ 
 }

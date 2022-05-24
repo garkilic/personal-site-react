@@ -13,9 +13,7 @@ function App() {
       <Main />
       <Background />
       <Skills />
-      <Projects 
-      title="Lorem Ipsum" 
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lorem, lobortis id tortor id, euismod tristique sapien. Cras finibus pulvinar nunc nec dictum. Donec aliquet rhoncus nunc."/>
+      <Projects />
       <Footer />
     </div>
   );
