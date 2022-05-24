@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from './components/Nav'
 import Main from './components/Main'
 import Background from './components/Background';
-import Skills from './components/Skills';
+// import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 
@@ -12,7 +12,7 @@ function App() {
       <Nav />
       <Main />
       <Background />
-      <Skills />
+      {/* <Skills /> */}
       <Projects />
       <Footer />
     </div>
