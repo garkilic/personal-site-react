@@ -54,10 +54,12 @@
 
 .main--message{
     font-size: var(--fs-large);
+    padding-bottom: 0;
 }
 
 .main--contact {
     padding-top: 1rem;
+    padding-bottom: 0;
     font-size: var(--fs-medium);
 }
 
@@ -67,7 +69,7 @@
 .background {
     font-size: 1rem;
     font-weight: 500;
-    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .background h1,
