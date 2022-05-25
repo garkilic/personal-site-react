@@ -20,6 +20,15 @@
     color: var(--clr-light);
 }
 
+.link--out {
+    text-decoration: none;
+    color: var(--clr-light);
+}
+
+.link--out:visited {
+    color:var(--clr-light);
+}
+
 /* Container */
 
 
@@ -58,15 +67,15 @@
 .background {
     font-size: 1rem;
     font-weight: 500;
-    padding-bottom: 3rem;
+    padding-bottom: 0;
 }
 
-.background--resume {
-    text-decoration: none;
-    color: var(--clr-light);
-    padding-top: 1rem;
-    font-weight: 500;
+.background h1,
+.skills--top h1,
+.projects h1 {
+text-decoration: underline;
 }
+
 
 /* Skills */
 
@@ -74,6 +83,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-size: 3rem;
+    padding: 0;
 }
 
 .icon {
@@ -90,58 +100,17 @@
     padding-top: 0;
 }
 
-.link--out {
-    text-decoration: none;
-    color: black;
-}
-
-
 /* Footer */
 
+
 .footer {
-    max-width: 700px;
-    text-align: left;
-    padding: 3rem 4rem;
-    display: flex;
     padding-top: 0;
-
-}
-
-.footer h3{
-    margin-right: 30%;
+    text-align: left;
 }
 
 
-.footer--links {
-    list-style-type: none;
-    display: flex;
-}
-
-.footer--links li {
-    margin: 0.5em 0 0 2em;
-    margin-left: 40%;
-}
-
-.footer--links a {
-    color: var(--clr-light);
-    text-decoration: none;
-}
-
-@media (max-width: 600px) {
-    .footer {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding: 1rem 3rem;
-        
+@media (max-width: 625px) {
+    .footer{
+        padding: 2rem 0;
     }
-
-    .footer h3 {
-        margin: 0;
-    }
-
-    .footer--links li {
-        margin: 0.5em 0 0 2.2em;
-    }
- 
 }
