@@ -1,118 +1,109 @@
-
 /* General Styling */
 
 :root {
+	--fs-large: 2rem;
+	--fs-medium: 1.25rem;
 
-        --fs-large: 2rem;
-        --fs-medium: 1.25rem;
-
-        --clr-light: #0967d2;
+	--clr-light: #0967d2;
 }
 
-
 * {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.5;
-    
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.5;
 }
 
 .highlight {
-    color: var(--clr-light);
+	color: var(--clr-light);
 }
 
 .link--out {
-    text-decoration: none;
-    color: var(--clr-light);
+	text-decoration: none;
+	color: var(--clr-light);
 }
 
 .link--out:visited {
-    color:var(--clr-light);
+	color: var(--clr-light);
 }
 
 /* Container */
 
-
 .section-container {
-    max-width: 700px;
-    text-align: left;
-    padding: 3rem 4rem;
+	max-width: 700px;
+	text-align: left;
+	padding: 3rem 4rem;
 }
 
-@media(min-width: 675px) {
-    .section-container {
-        max-width: 1000px;
-    }
+@media (min-width: 675px) {
+	.section-container {
+		max-width: 1000px;
+	}
 }
 
 /* Nav */
 
 .nav {
-    padding-bottom: 0;
+	padding-bottom: 0;
 }
 
 /* Main */
 
-.main--message{
-    font-size: var(--fs-large);
-    padding-bottom: 0;
+.main--message {
+	font-size: var(--fs-large);
+	padding-bottom: 0;
 }
 
 .main--contact {
-    padding-top: 1rem;
-    padding-bottom: 0;
-    font-size: var(--fs-medium);
+	padding-top: 1rem;
+	padding-bottom: 0;
+	font-size: var(--fs-medium);
 }
 
 /* Background */
 
-
 .background {
-    font-size: 1rem;
-    font-weight: 500;
-    padding-top: 0;
+	font-size: 1rem;
+	font-weight: 500;
+	padding-top: 0;
 }
 
 .background h1,
 .skills--top h1,
 .projects h1 {
-text-decoration: underline;
+	text-decoration: underline;
 }
-
 
 /* Skills */
 
 .skills {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    font-size: 3rem;
-    padding: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	font-size: 3rem;
+	padding: 0;
 }
 
 .icon {
-    margin: 1rem 0;
+	margin: 1rem 0;
 }
 
 .icon:hover {
-    color: var(--clr-light);
+	color: var(--clr-light);
 }
 
 /* Projects */
 
 .projects {
-    padding-top: 0;
+	padding-top: 0;
 }
 
 /* Footer */
 
-
 .footer {
-    padding-top: 0;
-    text-align: left;
+	padding-top: 0;
+	text-align: left;
 }
 
-
 @media (max-width: 625px) {
-    .footer{
-        text-align: center;
-    }
+	.footer {
+		text-align: center;
+	}
 }
