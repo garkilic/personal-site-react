@@ -12,6 +12,7 @@ export default function Projects() {
 			id: 1,
 		},
 	]);
+
 	return (
 		<div className=" projects section-container">
 			<h1>Projects</h1>
