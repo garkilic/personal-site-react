@@ -6,10 +6,19 @@ export default function Projects() {
 	const [projects, setProjects] = useState([
 		{
 			title: "Build Up",
+			languages: "HTML, CSS, Javascript, React",
 			description:
 				"Fitness platform to connect gym-goers with personal trainers. Through short questionnaire personal trainers will create a 3-month workout program for a flat fee. No more pricey subscriptions or unnecessary applications.",
 			url: "https://github.com/garkilic/build-up",
 			id: 1,
+		},
+		{
+			title: "Personal Site",
+			languages: "HTML, CSS, Javascript, React",
+			description:
+				"Personal site used to act as an introduction to me as a developer as well as a repository of my personal projects.",
+			url: "https://github.com/garkilic/personal-site-react",
+			id: 2,
 		},
 	]);
 

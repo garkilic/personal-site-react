@@ -15,6 +15,7 @@ export default function ProjectList({ projects }) {
 							{project.title}
 						</a>
 					</h2>
+					<p>{project.languages}</p>
 					<p>{project.description}</p>
 				</div>
 			))}
