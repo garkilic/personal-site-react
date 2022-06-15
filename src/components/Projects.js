@@ -20,6 +20,13 @@ export default function Projects() {
 			url: "https://github.com/garkilic/personal-site-react",
 			id: 2,
 		},
+		{
+			title: "Fun Fact API",
+			languages: "HTML, CSS, Javascript, REST API",
+			description: "Practice working with REST API's to build something fun.",
+			url: "https://github.com/garkilic/Fun-Fact-API-Tool",
+			id: 3,
+		},
 	]);
 
 	return (
