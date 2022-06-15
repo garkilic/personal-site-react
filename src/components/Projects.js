@@ -22,7 +22,7 @@ export default function Projects() {
 		},
 		{
 			title: "Fun Fact API",
-			languages: "HTML, CSS, Javascript, REST API",
+			languages: "HTML, CSS, Javascript, Bootstrap, REST API",
 			description: "Practice working with REST API's to build something fun.",
 			url: "https://github.com/garkilic/Fun-Fact-API-Tool",
 			id: 3,
