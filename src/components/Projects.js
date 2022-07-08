@@ -27,6 +27,14 @@ export default function Projects() {
 			url: "https://github.com/garkilic/Fun-Fact-API-Tool",
 			id: 3,
 		},
+		{
+			title: "Black Sand Studios",
+			languages: "HTML, CSS, Netlify",
+			description:
+				"Website development and product management for small businesses for a monthly fee.",
+			url: "https://github.com/garkilic/Black-Sand-Studios",
+			id: 4,
+		},
 	]);
 
 	return (
