@@ -67,7 +67,7 @@
 }
 
 .background h1,
-.skills--top h1,
+.skills-container h1,
 .projects h1 {
 	text-decoration: underline;
 }
