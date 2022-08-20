@@ -14,7 +14,7 @@ import { FaNodeJs } from "react-icons/fa";
 export default function Skills() {
 	return (
 		<div className="skills-container section-container">
-			<h1>Lanugages/Technologies</h1>
+			<h1>Technologies</h1>
 			<div className="skills">
 				<FaJs className="icon" />
 				<FaHtml5 className="icon" />
