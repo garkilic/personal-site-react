@@ -25,6 +25,10 @@
 	color: var(--clr-light);
 }
 
+a {
+	color: #0967d2;
+}
+
 /* Container */
 
 .section-container {

@@ -26,6 +26,12 @@ export default function Main() {
 					<span>garkilic@gmail.com</span>
 				</a>{" "}
 			</p>
+			<p className="main--contact">
+				👨‍💻 Lets Connect{" "}
+				<a href="https://www.linkedin.com/in/griffin-arkilic/" target="_blank">
+					<span>LinkedIn</span>
+				</a>{" "}
+			</p>
 		</div>
 	);
 }

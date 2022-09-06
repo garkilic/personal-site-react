@@ -5,11 +5,11 @@ import ProjectList from "./ProjectList";
 export default function Projects() {
 	const [projects, setProjects] = useState([
 		{
-			title: "Build Up",
-			languages: "HTML, CSS, Javascript, React",
+			title: "Game Development Blog",
+			languages: "HTML, CSS, Javascript, Unity, C#",
 			description:
-				"Fitness platform to connect gym-goers with personal trainers. Through short questionnaire personal trainers will create a 3-month workout program for a flat fee. No more pricey subscriptions or unnecessary applications.",
-			url: "https://github.com/garkilic/build-up",
+				"Over the next 365 days I am going to learn to build my own games in VR.",
+			url: "https://game-dev-griffin-arkilic.netlify.app/",
 			id: 1,
 		},
 		{
@@ -34,6 +34,14 @@ export default function Projects() {
 				"Website development and product management for small businesses for a monthly fee.",
 			url: "https://github.com/garkilic/Black-Sand-Studios",
 			id: 4,
+		},
+		{
+			title: "Build Up",
+			languages: "HTML, CSS, Javascript, React",
+			description:
+				"Fitness platform to connect gym-goers with personal trainers. Through short questionnaire personal trainers will create a 3-month workout program for a flat fee. No more pricey subscriptions or unnecessary applications.",
+			url: "https://github.com/garkilic/build-up",
+			id: 5,
 		},
 	]);
 

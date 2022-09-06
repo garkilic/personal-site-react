@@ -16,6 +16,16 @@ export default function Background() {
 			</p>
 
 			<p>“You live and learn. At any rate, you live.” - Douglas Adams</p>
+			<p className="main--contact">
+				Read my{" "}
+				<a
+					href="https://game-dev-griffin-arkilic.netlify.app/"
+					target={"_blank"}
+				>
+					VR Game Development Blog
+				</a>
+				{" 📚"}
+			</p>
 		</div>
 	);
 }
