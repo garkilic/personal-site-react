@@ -32,14 +32,14 @@ a {
 /* Container */
 
 .section-container {
-	max-width: 700px;
+	max-width: fit-content;
 	text-align: left;
-	padding: 3rem 4rem;
+	padding: 3rem 2rem;
+	width: 100%;
 }
 
 @media (min-width: 675px) {
 	.section-container {
-		margin: 0 auto;
 		width: 100%;
 	}
 }
@@ -60,6 +60,7 @@ a {
 .main--contact {
 	padding-top: 1rem;
 	padding-bottom: 0;
+	margin-bottom: 0;
 	font-size: var(--fs-medium);
 }
 

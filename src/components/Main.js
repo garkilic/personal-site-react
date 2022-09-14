@@ -6,11 +6,9 @@ export default function Main() {
 		<div className="section-container">
 			<h1 className="main--message">
 				{" "}
-				I'm <span className="highlight">Griffin Arkilic</span>, a web and game developer +
-				product manager based in Oakland, CA. I love building fantastic user
-				experiences and amazing digital products.
+				I'm <span className="highlight">Griffin Arkilic</span>, a web and game
+				developer based in Oakland, CA.
 			</h1>
-			
 
 			<p className="main--contact">
 				👉 Get in touch{" "}
@@ -19,7 +17,7 @@ export default function Main() {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<span>garkilic@gmail.com</span>
+					<span>Garkilic@gmail.com</span>
 				</a>{" "}
 			</p>
 			<p className="main--contact">
