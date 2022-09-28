@@ -6,8 +6,11 @@ export default function Main() {
 		<div className="section-container">
 			<h1 className="main--message">
 				{" "}
-				I'm <span className="highlight">Griffin Arkilic</span>, a web and game
-				developer based in Oakland, CA.
+				I'm <span className="highlight">Griffin Arkilic</span>: game developer,
+				web developer, and product manager.
+			</h1>
+			<h1 className="main--message">
+				Based in <span className="highlight">Oakland, CA</span>
 			</h1>
 
 			<p className="main--contact">
