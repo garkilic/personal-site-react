@@ -14,7 +14,7 @@ export default function Main() {
 			</h1>
 
 			<p className="main--contact">
-				👉 Get in touch{" "}
+				👉 Send me an email @{" "}
 				<a
 					href="mailto:garkilic@gmail.com"
 					target="_blank"
@@ -24,7 +24,7 @@ export default function Main() {
 				</a>{" "}
 			</p>
 			<p className="main--contact">
-				👨‍💻 Lets Connect{" "}
+				👨‍💻 Lets Connect on{" "}
 				<a href="https://www.linkedin.com/in/griffin-arkilic/" target="_blank">
 					<span>LinkedIn</span>
 				</a>{" "}
