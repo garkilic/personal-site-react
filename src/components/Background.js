@@ -19,7 +19,7 @@ export default function Background() {
 			<p className="main--contact">
 				Read my{" "}
 				<a
-					href="https://game-dev-griffin-arkilic.netlify.app/"
+					href="https://griffinsgamedevelopment.com/"
 					target={"_blank"}
 				>
 					VR Game Development Blog
